@@ -15,11 +15,20 @@ public class StringPool {
 
     //String immutability
     public static void stringPool2(){
+        String s = "Java";
 
+        s.concat(" Backend");
+
+        System.out.println(s);
     }
 
     public static void main(String[] args) {
         stringPool1();
+
+        System.out.println();
+        System.out.println();
+
+        stringPool2();
 
     }
 }
