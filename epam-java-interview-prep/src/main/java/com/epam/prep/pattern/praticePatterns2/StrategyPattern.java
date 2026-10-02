@@ -1,7 +1,4 @@
-package com.epam.prep.pattern;
-
-import java.util.HashMap;
-import java.util.Map;
+package com.epam.prep.pattern.praticePatterns2;
 
 public class StrategyPattern {
     public static void main(String[] args){
