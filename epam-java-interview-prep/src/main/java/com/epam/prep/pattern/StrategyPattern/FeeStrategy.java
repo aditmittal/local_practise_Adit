@@ -1,4 +1,4 @@
-package com.epam.prep.pattern.praticePatterns2;
+package com.epam.prep.pattern.StrategyPattern;
 
 @FunctionalInterface
 public interface FeeStrategy {

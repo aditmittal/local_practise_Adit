@@ -1,4 +1,4 @@
-package com.epam.prep.pattern.praticePatterns2;
+package com.epam.prep.pattern.StrategyPattern;
 
 public enum AccountType {
     SAVINGS,
