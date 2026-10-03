@@ -24,5 +24,7 @@ public class Twosum {
         int sum = 14;
 
         System.out.println(Arrays.toString(twoSum(arr, sum)));
+
+        System.out.println(0.0 == -0.0);
     }
 }
