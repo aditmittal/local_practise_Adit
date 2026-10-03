@@ -54,14 +54,16 @@ public class sortedOrder {
     }
 
 
-    public static int minimumAbsoluteDifference(List<Integer> arr) {
+    public static void minimumAbsoluteDifference(List<Integer> arr) {
         // Write your code here
         int minDiff = Integer.MAX_VALUE;
-        Collections.sort(arr);
-        for(int i=0;i<arr.size()-1;i++){
-            minDiff = Math.min(minDiff, Math.abs(arr.get(i)-arr.get(i+1)));
+        List<Integer> sorted = new ArrayList<>(arr);
+        Collections.sort(sorted);
+        System.out.println(sorted);
+        for(int i=0;i<sorted.size()-1;i++){
+            minDiff = Math.min(minDiff, Math.abs(sorted.get(i)-sorted.get(i+1)));
         }
-        return minDiff;
+        System.out.println(minDiff);
 
 
     }
@@ -83,6 +85,10 @@ public class sortedOrder {
     public static void main(String[] args){
         findNum();
         smallestPossiblediffpairs();
+        System.out.println(twoStrings("asjandsd","asjdaskjd"));
+        System.out.println(twoStrings("iowqeuiqwe","asjdaskjd"));
+        List<Integer> arr = List.of(1,4,39,87,95,54,32,59,69,76,67,98);
+        minimumAbsoluteDifference(arr);
     }
 
 }
