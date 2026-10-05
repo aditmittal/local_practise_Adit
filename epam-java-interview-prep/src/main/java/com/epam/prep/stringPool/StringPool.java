@@ -1,5 +1,6 @@
 package com.epam.prep.stringPool;
 
+import java.math.BigDecimal;
 import java.util.*;
 
 public class StringPool {
@@ -125,5 +126,7 @@ public class StringPool {
         set.add(new Person2(1));
 
         System.out.println(set.size());
+
+        BigDecimal bd = new BigDecimal(1000.00);
     }
 }
